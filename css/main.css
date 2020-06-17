@@ -109,6 +109,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  color: #e2e3ed;
 
 
 }
@@ -116,6 +117,8 @@ body {
 ul,
 ol {
   list-style-type: none;
+  font-weight: bold;
+  padding: 0;
 
 }
 
@@ -125,9 +128,14 @@ a {
 
 }
 
+h1 {
+  font-weight: 500
+}
+
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 2.25em;
+  font-weight: 500;
 
 }
 
@@ -135,6 +143,7 @@ h3,
 h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
+  font-weight: 500;
 
 }
 
@@ -142,12 +151,14 @@ h4 {
 p {
   font-family: 'Poppins', sans-serif;
   font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.285;
 
 }
 
 
 img {
-  max-width: 100%;
+  max-width: 96%;
 }
 
 figure {
@@ -165,6 +176,32 @@ address {
   margin: 50px 0;
 }
 
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 
 /* Base header-footer styles */
 
@@ -180,6 +217,7 @@ footer {
 
 header {
   padding: 15px 0;
+  background-color: #202322;
 }
 
 
@@ -196,7 +234,8 @@ header .content-wrapper {
 .header-divider {
   width: 100%;
   height: 1px;
-  padding: 10px 0 20px 0;
+  margin: 10px 0 20px 0;
+  background: #3a3a3a;
 }
 
 header nav {
@@ -205,8 +244,6 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
-
-
 }
 
 header nav ul {
@@ -217,6 +254,8 @@ header nav ul {
 
 }
 
+
+
 header nav ul li a {
   text-decoration: none;
 
@@ -224,6 +263,7 @@ header nav ul li a {
 
 footer {
   flex-direction: column;
+  background-color: #202322;
 }
 
 footer p {
@@ -232,13 +272,20 @@ footer p {
 
 footer .content-wrapper {
     width: 55%;
-    margin: 50px 0;
+    margin: 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+.footer-content {
+  text-align: center;
+
 }
 
 
 footer .contact {
   margin-bottom: 50px;
-
 
 }
 
@@ -247,8 +294,8 @@ footer .social-icons {
   align-items: center;
   justify-content: space-around;
 
-
 }
+
 
 footer .social-icons p {
   display: flex;
@@ -280,6 +327,7 @@ footer .copyright {
 
 .hero-area h1 {
 
+
 }
 
 /* aside  */
@@ -290,7 +338,12 @@ aside   {
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #527158;
 
+}
+
+aside .content-wrapper {
+  margin-top: 0px;
 }
 
 
@@ -339,6 +392,7 @@ aside   {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 
 }
 
@@ -350,6 +404,7 @@ aside   {
 .reviews h3 {
   width: 50%;
   margin: 20px 0;
+
 
 }
 
@@ -365,7 +420,10 @@ aside   {
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
+
+
 
 
 .contact-section {
@@ -373,6 +431,7 @@ aside   {
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .contact-content p {
@@ -391,6 +450,7 @@ aside   {
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -518,9 +578,7 @@ header .content-wrapper {
 }
 
 
-  .hero-area h1 {
-    padding: 80px 150px 50px 0px;
-  }
+
 
 
 
@@ -690,11 +748,6 @@ header .content-wrapper {
 
 /* Header section */
 
-.hero-area h1 {
-  padding: 65px 600px 390px 0px;
-
-
-}
 
 
     aside .content-wrapper .form-description,
@@ -749,7 +802,7 @@ header .content-wrapper {
 
   .footer-content {
     margin: 0px;
-    padding: 100px 50px;
+    padding: 0px 50px;
 
   }
 
