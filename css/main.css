@@ -399,6 +399,12 @@ aside .content-wrapper {
   margin: 0;
 }
 
+.features i {
+	font-size: 3em;
+  margin-bottom: 40px;
+  padding-left: 60px;
+}
+
 /* reviews  */
 
 .reviews  {
