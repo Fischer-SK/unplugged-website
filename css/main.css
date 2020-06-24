@@ -645,7 +645,6 @@ header .content-wrapper {
 
   header nav {
     width: 25%;
-    justify-content: space-between;
 
   }
 
@@ -873,10 +872,6 @@ header .content-wrapper {
    FAQ Page
    ========================================================================== */
 
-   header figure {
-     width: 70%;
-
- }
 
   .faq .content-wrapper {
     justify-content: space-between;
